@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/reactlive/static/css/main.bb74746a.chunk.css",
-    "main.js": "/reactlive/static/js/main.4e4cd374.chunk.js",
-    "main.js.map": "/reactlive/static/js/main.4e4cd374.chunk.js.map",
+    "main.js": "/reactlive/static/js/main.1495e9bb.chunk.js",
+    "main.js.map": "/reactlive/static/js/main.1495e9bb.chunk.js.map",
     "runtime-main.js": "/reactlive/static/js/runtime-main.3d405ea4.js",
     "runtime-main.js.map": "/reactlive/static/js/runtime-main.3d405ea4.js.map",
     "static/js/2.06184ca6.chunk.js": "/reactlive/static/js/2.06184ca6.chunk.js",
     "static/js/2.06184ca6.chunk.js.map": "/reactlive/static/js/2.06184ca6.chunk.js.map",
     "index.html": "/reactlive/index.html",
-    "precache-manifest.1ab71b99bd3c7419d2f3f9f71e608668.js": "/reactlive/precache-manifest.1ab71b99bd3c7419d2f3f9f71e608668.js",
+    "precache-manifest.20664bd21653d1d69553d21702606333.js": "/reactlive/precache-manifest.20664bd21653d1d69553d21702606333.js",
     "service-worker.js": "/reactlive/service-worker.js",
     "static/css/main.bb74746a.chunk.css.map": "/reactlive/static/css/main.bb74746a.chunk.css.map",
     "static/js/2.06184ca6.chunk.js.LICENSE.txt": "/reactlive/static/js/2.06184ca6.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3d405ea4.js",
     "static/js/2.06184ca6.chunk.js",
     "static/css/main.bb74746a.chunk.css",
-    "static/js/main.4e4cd374.chunk.js"
+    "static/js/main.1495e9bb.chunk.js"
   ]
 }
