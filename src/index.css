@@ -6,8 +6,120 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+#toggle{
+  display: none;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#dj{
+  margin-left: auto;
+    border: 0px;
+    padding: 0;
+}
+#shanu{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: -1rem;
+}
+#shanu:hover{
+  background-color: burlywood;
+  border: 1px solid rgb(158, 100, 24);
+  border-radius: 5%;
+  font-size:1rem
+}
+#picture{
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-size:cover;
+}
+
+#logo{
+  width: 30px;
+  height: 30px;
+}
+#test{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 2rem;
+}
+#one{
+  pointer-events: fill;
+  text-decoration: none;
+}
+@media(min-width:0px) and (max-width:570px){
+  #dj{
+    margin-left: auto;
+    display: none;
+    padding-top: 60px;
+  }
+  #toggle:checked + #dj{
+   display: grid;
+  }
+  
+  #shanu{
+    
+    font-size: -1rem;
+  }
+  #shanu:hover{
+    background-color: burlywood;
+    border: 1px solid rgb(158, 100, 24);
+    border-radius: 5%;
+    font-size:1rem
+  }
+  #test{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: white;
+    font-size: -1rem;
+    opacity: 1;
+      visibility:visible;
+  }
+  #picture{
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+  }
+  #logo{
+    width: 30px;
+    height: 30px;
+  }
+  #one{
+    pointer-events: fill;
+    text-decoration: none;
+    font-family: cursive;
+  }
+  #logo2:hover{
+    color: rgb(201, 157, 13);
+  }
+}
+  @media(min-width:570px) and (max-width:2000px){
+    #dj{
+      display:block;
+    }
+    #test{
+      position: absolute;
+    top: 10px;
+    right: 20px;
+    color: white;
+    font-size: -1rem;
+    opacity: 0;
+    visibility:hidden;
+    }
+    .menu_list.shanu{
+      width: 100% !important;
+      height: 80vh !important;
+      background-color: black;
+      position: relative;
+    }
+    #one{
+      pointer-events: fill;
+      text-decoration: none;
+    }
+  }
